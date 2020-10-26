@@ -1,0 +1,12 @@
+.row-header {
+  background-color: #e4dfdf;
+  margin: 0px auto;
+  padding: 10px 1%; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 20px 0px;
+  min-height: 50px; }
+
+.photos {
+  background-color: red; }

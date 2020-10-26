@@ -1,0 +1,18 @@
+@mixin zero-margin($pad-up-dn, $pad-left-right){
+	margin: 0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
+.row-header{
+	background-color: #e4dfdf;
+	@include zero-margin(10px,1%);
+}
+
+.row-content {
+  @include zero-margin(20px,0px);
+  min-height: 50px;
+}
+
+.photos {
+  background-color: red;
+}
