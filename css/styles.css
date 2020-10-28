@@ -8,6 +8,9 @@
   padding: 20px 0px;
   min-height: 50px; }
 
+.nav-link .active {
+  color: green; }
+
 a.active.nav-link {
   border-bottom-style: solid;
   border-bottom-width: 5px;
@@ -29,7 +32,7 @@ a.active.nav-link {
   background-color: #207809; }
 
 .bar-3 {
-  width: 40%;
+  width: 20%;
   height: 18px;
   background-color: #207809; }
 
@@ -120,6 +123,3 @@ a.active.nav-link {
   color: #FFFFFF;
   margin: 0px auto;
   padding: 40% 0px; }
-
-.nav-link .active {
-  color: green; }

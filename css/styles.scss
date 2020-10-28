@@ -13,6 +13,12 @@
   min-height: 50px;
 }
 
+.nav-link{
+	.active{
+		color: green;
+	}
+}
+
 a.active.nav-link{
 	border-bottom-style: solid;
   border-bottom-width: 5px;
@@ -38,7 +44,7 @@ a.active.nav-link{
 }
 
 .bar-3 {
-	width: 40%; 
+	width: 20%; 
 	height: 18px; 
 	background-color: #207809;
 }
@@ -150,10 +156,4 @@ a.active.nav-link{
 	font-size: 22pt;
 	color: #FFFFFF;
 	@include zero-margin(40%,0px);
-}
-
-.nav-link{
-	.active{
-		color: green;
-	}
 }
