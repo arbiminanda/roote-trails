@@ -72,7 +72,7 @@ a.active.nav-link{
 }
 
 .text-btn {
-	color: #FFFFFF;
+	color: #FFFFFF;	
 }
 
 .bg-review{
@@ -99,6 +99,57 @@ a.active.nav-link{
 
 .my-rounded {
 	border-radius: 10%;
+}
+
+.square {
+  width: 100%;
+	height: 100%;
+	border-radius: 10%;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.foto1{
+	background-color: #000AE3;
+}
+
+.foto2{
+	background-color: #1C759D;
+}
+
+.foto3{
+	background-color: #FE0000;
+}
+
+.foto4{
+	background-color: #43A251;
+}
+
+.foto5{
+	background-color: #FFFF01;
+}
+
+.foto6{
+	background-color: #C00000;
+}
+
+.foto7{
+	background-color: #BFBFBF;
+}
+
+.foto8{
+	background-color: #262626;
+}
+
+.foto9{
+	background-color: #2191C3;
+}
+
+.text-foto {
+	font-size: 22pt;
+	color: #FFFFFF;
+	@include zero-margin(40%,0px);
 }
 
 .nav-link{
